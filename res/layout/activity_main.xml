@@ -16,6 +16,15 @@
         android:layout_centerVertical="true"
         android:text="Rectangle" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="40dp"
+        android:text="Circle" />
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -34,14 +43,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="25dp"
         android:text="Square" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_below="@+id/button2"
-        android:layout_marginTop="22dp"
-        android:text="Circle" />
 
 </RelativeLayout>
